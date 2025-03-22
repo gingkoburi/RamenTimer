@@ -28,7 +28,11 @@ struct CreditView: View {
     
             Text("gingkoburi@gmail.com")
                 .font(.title)
-                .padding(.top, 5)
+                //.padding(.top, 5)
+            
+            Text("このアプリで出力される豆知識たちは、事実検証はできておりません。あくまでも時間潰しのネタとしてお楽しみください！")
+                .font(.caption)
+                .padding(.top,5)
 
             Spacer()
 
